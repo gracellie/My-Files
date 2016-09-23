@@ -1,0 +1,222 @@
+Imports Microsoft.Win32
+Public Class RegistryTrial
+    Private Last, First, RemainsDays, RemainsDays1, strOldDay, strOldMonth, strOldYear As String
+    'Number of Days Of the trial version.
+    Private mintSystem_UsedTrialDays As Integer 'Number of days system used
+    Public StartDate As String 
+    Public LastDate As String 
+    Public FinalDate, FinalDateTime As String
+    Public Function Regedit(ByVal TrialPeriod As Integer) As String
+  'It first create Key then Stored value in it 
+  Dim regKey As RegistryKey
+  Try
+    Dim strRet As String = ""
+    regKey = Registry.LocalMachine.OpenSubKey("SOFTWARE", True)
+    regKey = Registry.LocalMachine.OpenSubKey("Software\AppSecurity", True)
+    If regKey Is Nothing Then
+    regKey = Registry.LocalMachine.OpenSubKey("SOFTWARE", True)
+    regKey.CreateSubKey("AppSecurity")
+    regKey.Close()
+    If WriteValue(TrialPeriod) = False Then
+    Return "setting fail."
+    End If
+    Else
+    strRet = GetValueFromReg(TrialPeriod)
+    Return strRet
+    End If
+  Catch ex As Exception
+    Return ""
+  End Try
+    End Function
+
+    Public Function GetValueFromReg(ByVal mintTrialPeriod As Integer) As String
+  'This Function is used to Get/Read The Value from the registry
+  Dim strReturn As String = ""
+  Dim regKey As RegistryKey
+  Dim ver, Final As String
+  regKey = Registry.LocalMachine.OpenSubKey("Software\AppSecurity", True) 'its opens the path to read value
+  ver = regKey.GetValue("System_In") 'System_In=It get the value in (StartDate) & ";" & (LastDate) which is already stored in Encrypted formate.
+
+  If ver = "" Then 'If User Change It
+    Return "You have change some module,you are un-authorised to use the application."
+  Else
+    Final = funcDecrpt_Date(ver) 'this Decrypt the Value
+    If Final.Length() = "21" Then
+    Last = Final.Substring(11)
+    strOldDay = Final.Substring(0, 2) 'It Display Day ex:"01"
+    strOldMonth = Final.Substring(3, 2) 'It Display Month ex:"01"
+    strOldYear = Final.Substring(6, 4) 'It Display Year ex:"2009"
+    First = Final.Substring(0, 10) 'It Display startdate from Registry
+
+    RemainsDays = DisplayApplicationStatus(DiffDate(strOldDay, strOldMonth, strOldYear), mintTrialPeriod)
+    mintSystem_UsedTrialDays = DiffDate(strOldDay, strOldMonth, strOldYear)
+    Dim todaydate As String
+    todaydate = Format(Today, "dd/MM/yyyy")
+    'it Comapairs the LastDate Stored in Registry with Todaysdate
+    If RemainsDays1 = 0 Then
+    Return "Sorry,Your trial period is over!!Please purchase this software."
+    Else
+    Dim LastMonth As String
+    Dim CurrentMonth As String
+    LastMonth = Last.Substring(3, 2)
+    CurrentMonth = todaydate.Substring(3, 2)
+    If LastMonth > CurrentMonth Then
+    If Last = todaydate Or First > todaydate Then
+    Return "Sorry,Your trial period is over!!Please purchase this software."
+
+    Else
+    strReturn = GetLastAccessDateTime()
+    If strReturn <> "LogIn" Then
+    Return strReturn
+    Else
+    If RemainsDays1 = Nothing Then
+    Return "123Today is your last day in your free trial period."
+    Else
+    Return "123You have " & RemainsDays1 & " days remaining in your free trial period."
+    End If
+    End If
+    End If
+    Else
+    If Last = todaydate Or Last < todaydate Or First > todaydate Then
+    Return "Sorry,Your trial period is over!!Please purchase this software."
+    Else
+    strReturn = GetLastAccessDateTime()
+    If strReturn <> "LogIn" Then
+    Return strReturn
+    Else
+    If RemainsDays1 = Nothing Then
+    Return "123Today is your last day in your free trial period."
+    Else
+    Return "123You have " & RemainsDays1 & " days remaining in your free trial period."
+    End If
+    End If
+    End If
+    End If
+    End If
+    Else
+    Return "You have change some module,you are un-authorised to use the application."
+    End If
+  End If
+    End Function
+
+    Public Function funcEncrpt_Date(ByVal mDate As String) As String
+  'This function used to stored dates in the Encrypted Formate in the Registry
+  Dim intI As Integer = 0
+  Dim mstrDate As String = ""
+  Try
+    For intI = 1 To Len(mDate)
+    If Mid(Trim(mDate), intI, 1) = "1" Then
+    mstrDate = mstrDate & ChrW(Asc(Mid(Trim(mDate), intI, 1)) - 5)
+    Else
+    mstrDate = mstrDate & ChrW(Asc(Mid(Trim(mDate), intI, 1)) - 10)
+    End If
+    Next
+    If InStr(mstrDate, "'") <> 0 Then
+    mstrDate = mstrDate & "'"
+    End If
+  Catch ex As Exception
+  End Try
+  Return mstrDate
+    End Function
+
+    Public Function funcDecrpt_Date(ByVal mDate As String) As String
+  'This Decrypts the dates which is stored in the registry in Encrypted Formate and used in the application
+  Dim intI As Integer = 0
+  Dim mstrDate As String = ""
+  Try
+    For intI = 1 To Len(mDate)
+    If Mid(Trim(mDate), intI, 1) = "," Then
+    mstrDate = mstrDate & ChrW(Asc(Mid(Trim(mDate), intI, 1)) + 5)
+    Else
+    mstrDate = mstrDate & ChrW(Asc(Mid(Trim(mDate), intI, 1)) + 10)
+    End If
+    Next
+  Catch ex As Exception
+  End Try
+  Return mstrDate
+    End Function
+
+    Public Function WriteValue(ByVal TrialPeriod As Integer) As Boolean
+  'This Function Writes The value in thw registry
+  Dim regKey As RegistryKey
+  Dim SaveFirstAccessdate As String
+  Try
+    regKey = Registry.LocalMachine.OpenSubKey("Software\AppSecurity", True)
+    StartDate = Format(Today, "dd/MM/yyyy")
+    LastDate = Format(Today.AddDays(TrialPeriod), "dd/MM/yyyy")
+    FinalDate = funcEncrpt_Date(StartDate) & ";" & funcEncrpt_Date(LastDate)
+    regKey.SetValue("System_In", FinalDate) 'This write StartDate and Lastdate In the Registry
+    SaveFirstAccessdate = Format(Today, "dd/MM/yyyy") & ";" & Format(TimeOfDay, "hh:mm:ss tt")
+    regKey.SetValue("System_Used", funcEncrpt_Date(SaveFirstAccessdate)) 'This write Last used system DATE;TIME In the Registry
+    regKey.SetValue("AppName", "AppSecurity") 'This write Application Name in Registry 
+    regKey.Close()
+    Return True
+  Catch ex As Exception
+    Return False
+  End Try
+    End Function
+    Public Function GetLastAccessDateTime() As String
+  'This function is used to get value from registry (Last used DateTime)
+  Try
+    Dim regKey As RegistryKey
+    regKey = Registry.LocalMachine.OpenSubKey("SOFTWARE", True)
+    Dim LastAccess As String
+    regKey = Registry.LocalMachine.OpenSubKey("Software\AppSecurity", True)
+    LastAccess = regKey.GetValue("System_Used") ', funcDecrpt_Date(FinalDateTime))
+    If LastAccess = "" Or LastAccess.Length <> "22" Then
+    Return "You have change some module,you are un-authorised to use the application."
+    Else
+    Dim TodayDate As String
+    TodayDate = (Format(Today, "dd/MM/yyyy") & ";" & Format(TimeOfDay, "hh:mm:ss tt"))
+    If TodayDate < funcDecrpt_Date(LastAccess) Then
+    Return "You have change your system Date mannually,you are un-authorised to use the application."
+    Else
+    Return "LogIn"
+    End If
+    End If
+    regKey.Close()
+  Catch ex As Exception
+    Return ""
+  End Try
+    End Function
+    Public Sub SaveLastAceessDateTime()
+  'this function used on the form exit ,to save Last Used System DateTime
+  Try
+    Dim regKey As RegistryKey
+    regKey = Registry.LocalMachine.OpenSubKey("SOFTWARE", True)
+    Dim SaveLastAccessdate As String
+    regKey = Registry.LocalMachine.OpenSubKey("Software\AppSecurity", True)
+    SaveLastAccessdate = Format(Today, "dd/MM/yyyy") & ";" & Format(TimeOfDay, "hh:mm:ss tt")
+    FinalDateTime = funcEncrpt_Date(SaveLastAccessdate)
+    regKey.SetValue("System_Used", FinalDateTime)
+    regKey.Close()
+  Catch ex As Exception
+
+  End Try
+    End Sub
+
+    Public Function DisplayApplicationStatus(ByVal pDaysSystem_Used As Integer, ByVal pTotalDays As Integer) As String
+  'Check if the author made the mistake of setting the trial period days to less than 0
+  If pTotalDays < 0 Then
+    Return "An error has occurred! The author has alloted you a trial period less than zero days, which is impossible. Please contact the author and tell him/her of this error."
+  End If
+
+  'Check if the trial is expired
+  If pDaysSystem_Used >= pTotalDays Then
+    Return "Your trial has expired!"
+  End If
+
+  'Draw the bar
+  RemainsDays1 = pTotalDays - pDaysSystem_Used
+  Return "You have " + (pTotalDays - pDaysSystem_Used).ToString + " days remaining in your free trial period."
+    End Function
+
+    Public Function DiffDate(ByVal OrigDay As String, ByVal OrigMonth As String, ByVal OrigYear As String) As Integer
+  Try
+    Dim D1 As Date = New Date(Convert.ToInt32(OrigYear), Convert.ToInt32(OrigMonth), Convert.ToInt32(OrigDay))
+    Return Convert.ToInt32(DateDiff(DateInterval.Day, D1, DateTime.Now))
+  Catch
+    Return 0
+  End Try
+    End Function
+End Class

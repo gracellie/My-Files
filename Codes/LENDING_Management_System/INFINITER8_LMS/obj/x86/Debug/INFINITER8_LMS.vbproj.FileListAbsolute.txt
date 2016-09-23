@@ -1,0 +1,113 @@
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmBorrower.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmChangePwd.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.FrmCollectorCollectables.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmCollectorRemittance.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmConfiguration.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmDatabase.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmDeleteData.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoadBorrower.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoadLoan.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoan.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLogin.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmMain.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPastDue.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPosting.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintPastDue.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintWeeklyPastDue.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintWeeklyRem.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmRemit.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmSummaryAll.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmUser.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmWeeklyPastDue.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.Resources.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.vbproj.GenerateResource.Cache
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.exe
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.pdb
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.xml
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.exe
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.xml
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.pdb
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmRemitted.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.exe.config
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportLedger.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\RdlCompile.cache
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\RdlCompile.compiled
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportCollectable.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportCollections.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportSummary.resources
+E:\PROJECT\2016 PROJECT\INIFINTE R8\SYSTEM\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.vbprojResolveAssemblyReference.cache
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.exe.config
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.exe
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.xml
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.pdb
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.exe
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.pdb
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.xml
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.vbprojResolveAssemblyReference.cache
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmBorrower.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmChangePwd.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.FrmCollectorCollectables.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmCollectorRemittance.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmConfiguration.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmDatabase.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmDeleteData.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoadBorrower.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoadLoan.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoan.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLogin.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmMain.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPastDue.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintPastDue.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintWeeklyPastDue.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintWeeklyRem.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmSummaryAll.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmUser.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmWeeklyPastDue.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmRemitted.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.Resources.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportCollectable.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportCollections.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportLedger.resources
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.vbproj.GenerateResource.Cache
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\RdlCompile.cache
+C:\Users\user-pc\Desktop\INFINITER8_LMS\INFINITER8_LMS\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.exe.config
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.xml
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.pdb
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.vbprojResolveAssemblyReference.cache
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmBorrower.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmChangePwd.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.FrmCollectorCollectables.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmCollectorRemittance.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmConfiguration.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmDatabase.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmDeleteData.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoadBorrower.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoadLoan.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLoan.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmLogin.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmMain.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPastDue.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintPastDue.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintWeeklyPastDue.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmPrintWeeklyRem.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmSummaryAll.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmUser.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmWeeklyPastDue.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmRemitted.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.Resources.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportCollectable.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportCollections.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.frmReportLedger.resources
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.vbproj.GenerateResource.Cache
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\RdlCompile.cache
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\DATASOURCE\infiniter8_dbDataSet.vb
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\DATASOURCE\infiniter8_dbDataSet.Designer.vb
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\DATASOURCE\infiniter8_dbDataSet.xsc
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\DATASOURCE\infiniter8_dbDataSet.xsd
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\DATASOURCE\infiniter8_dbDataSet.xss
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.exe
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.pdb
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\bin\Debug\INFINITER8_LMS.xml
+C:\Users\Blade\Desktop\Codes\LENDING_Management_System\INFINITER8_LMS\obj\x86\Debug\INFINITER8_LMS.exe

@@ -1,0 +1,32 @@
+Public Class Form1
+    Private Sub Form1_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        If MsgBox("Are you sure to exit", MsgBoxStyle.YesNo, "Exit") = MsgBoxResult.No Then
+            e.Cancel = True
+        End If
+    End Sub
+    Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        fade_in()
+        If Date.Now.Day <> 13 Then
+            MsgBox("Your application is out-of-date and needs update", MsgBoxStyle.Information, "Trial mode")
+            Me.Close()
+        Else
+            Me.Show()
+        End If
+    End Sub
+    'Fade in
+    Public Sub fade_in()
+        For FadeIn = 0.0 To 1.1 Step 0.1
+            Me.Opacity = FadeIn
+            Me.Refresh()
+            Threading.Thread.Sleep(100)
+        Next
+    End Sub
+    'Fade out:
+    Public Sub fade_out()
+        For FadeOut = 90 To 10 Step -10
+            Me.Opacity = FadeOut / 100
+            Me.Refresh()
+            Threading.Thread.Sleep(50)
+        Next
+    End Sub
+End Class

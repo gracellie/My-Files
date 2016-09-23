@@ -1,0 +1,12 @@
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\obj\x86\Debug\SalesConverter.vbproj.ResolveComReference.cache
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\bin\Debug\Templates\ESKIE_TEMPLATE.PTU
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\bin\Debug\Templates\IMD.xlsx
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\bin\Debug\SalesConverter.exe
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\bin\Debug\SalesConverter.pdb
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\bin\Debug\SalesConverter.xml
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\obj\x86\Debug\Converter.frmMain.resources
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\obj\x86\Debug\Converter.Resources.resources
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\obj\x86\Debug\SalesConverter.vbproj.GenerateResource.Cache
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\obj\x86\Debug\SalesConverter.exe
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\obj\x86\Debug\SalesConverter.xml
+C:\Users\Blade\Desktop\Codes\GHS-master\SalesConverter\SalesConverter\obj\x86\Debug\SalesConverter.pdb

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+INFINITER8_LMS
+</name>
+</assembly>
+<members>
+<member name="T:INFINITER8_LMS.infiniter8_dbDataSet.SummaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.CollectableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.ledgerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.loanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.remittanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.SummaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.CollectableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.ledgerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.loanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.remittanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.SummaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.CollectableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.ledgerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.loanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet.remittanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.SummaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.CollectableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.ledgerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.loanTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.remittanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(INFINITER8_LMS.infiniter8_dbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(INFINITER8_LMS.infiniter8_dbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(INFINITER8_LMS.infiniter8_dbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager.UpdateAll(INFINITER8_LMS.infiniter8_dbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:INFINITER8_LMS.infiniter8_dbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:INFINITER8_LMS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:INFINITER8_LMS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:INFINITER8_LMS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
